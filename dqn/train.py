@@ -100,13 +100,13 @@ def train_dqn(num_episodes=1000, target_update_freq=10, save_freq=100):
             state_after_move = mill.transition_model(env)
 
             # Get next state and reward
-            next_observation, _, _, _, _ = env.last()
+            next_observation, next_reward, _, _, _ = env.last()
 
-            next_reward = calculate_reward(
-                state_before_move,
-                state_after_move,
-                current_player
-            )
+            # next_reward = calculate_reward(
+            #     state_before_move,
+            #     state_after_move,
+            #     current_player
+            # )
 
             # Store transition
             if current_player == 1:
