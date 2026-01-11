@@ -1,0 +1,4 @@
+model_name,random,apprentice,adventurer,knight
+mill_random_64000.pt,99.3 : 28.6,89.8 : 34.3,62.3 : 42.2,54.6 : 40.8
+mill_apprentice_64000.pt,99.4 : 29.4,97.7 : 27.1,75.5 : 38.3,66.4 : 38.9
+mill_selfplay_64000.pt,98.8 : 29.0,84.39999999999999 : 32.7,71.8 : 38.5,57.599999999999994 : 38.0
